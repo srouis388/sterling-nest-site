@@ -1,0 +1,146 @@
+/* ===== Brand Color Variables ===== */
+:root {
+  --color-primary:    #1E7A7A;   /* deep teal — headings, nav */
+  --color-secondary:  #3AA8A0;   /* medium teal — accents, links */
+  --color-accent:     #7AAF72;   /* sage green — highlights, buttons */
+  --color-text:       #3A5A5A;   /* dark slate — body text */
+  --color-background: #F5F5F3;   /* off-white — page background */
+  --color-surface:    #FFFFFF;   /* white — cards, panels */
+  --color-muted:      #6B8F8F;   /* muted teal — secondary text */
+}
+
+/* ===== Banner + Nav (shared) ===== */
+.banner {
+  width: 100%;
+  min-height: 48px;
+  background-color: var(--color-primary);
+  font-family: 'Nunito', system-ui, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 55px;
+  background: var(--color-secondary);
+  overflow: hidden;
+  border-bottom: 4px solid var(--color-accent);
+}
+
+.navbar { height: 55px; }
+
+.nav-list {
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 8px;
+}
+
+.item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.item a:hover,
+.item a:focus {
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+}
+
+/* ===== Site Footer (shared across all pages) ===== */
+.site-footer {
+  margin-top: 48px;
+  padding: 28px 16px;
+  background: #E8F4F4;
+  border-top: 4px solid var(--color-primary);
+}
+
+.site-footer .footer-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: var(--color-surface);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .06);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.social-link:hover {
+  color: var(--color-secondary);
+}
+
+.social-link svg {
+  flex-shrink: 0;
+}
+
+
+.site-footer .footer-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 10px 0;
+}
+
+.site-footer .footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.site-footer .footer-links li {
+  margin-bottom: 6px;
+}
+
+.site-footer .footer-links a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-footer .footer-links a:hover {
+  text-decoration: underline;
+  color: var(--color-primary);
+}
+
+.site-footer .footer-note {
+  font-size: 14px;
+  color: var(--color-muted);
+  margin-top: 12px;
+}

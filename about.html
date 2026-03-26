@@ -1,0 +1,153 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>About | Sterling Nest Wellness Group</title>
+  <style>
+    :root {
+      --color-primary:    #1E7A7A;
+      --color-secondary:  #3AA8A0;
+      --color-accent:     #7AAF72;
+      --color-text:       #3A5A5A;
+      --color-background: #F5F5F3;
+      --color-surface:    #FFFFFF;
+      --color-muted:      #6B8F8F;
+    }
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Nunito', system-ui, Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 32px;
+  color: var(--color-primary);
+  margin: 28px 0 20px 0;
+}
+
+.about-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+}
+
+.about-card {
+  background: var(--color-surface);
+  border: 2px solid var(--color-secondary);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  box-shadow: 0 8px 32px rgba(30, 122, 122, 0.15);
+}
+
+.about-card img {
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid var(--color-accent);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 260px;
+  font-size: 17px;
+  line-height: 1.8;
+  text-align: left;
+  margin: 0;
+  color: var(--color-text);
+}
+
+.attribution {
+  font-size: 12px;
+  color: var(--color-muted);
+  margin-top: 14px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--color-muted);
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="banner">Compassionate Companion Care - Here When You Need Us</div>
+
+  <div class="container">
+    <nav class="navbar" aria-label="Primary">
+      <ul class="nav-list">
+        <li class="item"><a href="index.html">Home</a></li>
+        <li class="item"><a href="services.html">Services</a></li>
+        <li class="item"><a href="about.html">About</a></li>
+        <li class="item"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main class="about-wrap">
+    <h2>About Us</h2>
+
+<div class="about-card">
+  <img src="images/heart-in-hands.jpeg" alt="Caregiver holding an elderly person's hands warmly">
+
+  <p class="about-text">
+    Hi, I'm Amanda. I offer personalized support for elderly individuals who live on their own.
+    My services are flexible, caring, and built around your unique needs.
+    <br><br>
+    I cared for my grandmother during her 10-year journey with breast cancer.
+    That experience gave me deep compassion and a calling to support others with patience, love, and dignity.
+  </p>
+</div>
+
+<p class="attribution">
+  Stock photo: <a href="https://www.vecteezy.com" target="_blank" rel="noopener noreferrer">Heart in Hands - Vecteezy</a>
+</p>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-title">Terms &amp; Policies</p>
+      <ul class="footer-links">
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+      </ul>
+      
+     <div class="footer-bottom">
+  <p class="footer-note" style="margin: 0;">© <span class="year"></span> Sterling Nest Wellness Group LLC. All rights reserved.</p>
+  <a href="https://facebook.com/YourPageHere" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow us on Facebook">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+    </svg>
+    Follow us on Facebook
+  </a>
+</div>
+
+
+    </div>
+  </footer>
+
+  <script>
+  document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());
+</script>
+
+
+</body>
+</html>
