@@ -16,12 +16,12 @@ This website provides information about services, background, and contact option
 - Version controlled with GitHub
 
 ## 📁 Structure
-- index.html — Homepage
-- about.html — About the caregiver and background
-- services.html — Services offered
-- contact.html — Contact information
-- /images — Image assets
-- /legal — Privacy Policy and Terms
+- index.html - Homepage
+- about.html - About the caregiver and background
+- services.html - Services offered
+- contact.html - Contact information
+- /images - Image assets
+- /legal - Privacy Policy and Terms
 
 ## 🎯 Purpose
 To provide a clean, trustworthy, and user-friendly experience for potential clients and families seeking home care services.
