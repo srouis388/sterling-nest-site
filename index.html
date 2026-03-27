@@ -99,20 +99,27 @@
 
     /* ── Logo card ── */
     .companyname {
-      border: 3px solid var(--color-accent);
-      background-color: var(--color-surface);
-      margin: 28px auto;
-      border-radius: 16px;
-      display: inline-block;
-      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
-    }
+  border: 3px solid var(--color-accent);
+  background-color: var(--color-surface);
+  margin: 32px auto;
+  border-radius: 16px;
+  display: inline-block;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  padding: 6px;
+  transition: transform 0.2s ease;
+}
+
+.companyname:hover {
+  transform: translateY(-2px);
+}
 
     .companyname img {
-      width: 410px;
-      height: 200px;
-      padding: 8px;
-      object-fit: contain;
-    }
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  padding: 12px;
+  object-fit: contain;
+}
 
     /* ── Typography ── */
     h1 {
