@@ -1,6 +1,6 @@
-# Sterling Nest Wellness Group
+# Sterling Nest Wellness Group LLC
 
-A professional website for Sterling Nest Wellness Group, a home health aide and companion care service serving Lake County, Sumter County, and surrounding Central Florida communities.
+A professional website for Sterling Nest Wellness Group LLC, a home health aide and companion care service serving Lake County, Sumter County, and surrounding Central Florida communities.
 
 ## 🌐 Live Site
 https://sterlingnestwellness.com
