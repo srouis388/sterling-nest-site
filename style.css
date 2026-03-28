@@ -144,3 +144,127 @@
   color: var(--color-muted);
   margin-top: 12px;
 }
+
+
+@media (max-width: 768px) {
+  .page-content,
+  .about-wrap,
+  .services-wrap,
+  .contact-wrap {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .banner {
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 10px 12px;
+    text-align: center;
+  }
+
+  .container {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar {
+    height: auto;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .item a {
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+  }
+
+  .companyname {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+  }
+
+  .companyname img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .about-card,
+  .services-card,
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 18px;
+  }
+
+  .about-card img,
+  .services-hero img,
+  .services-gallery img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .about-text,
+  .services-text,
+  .contact-text {
+    min-width: 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .services-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+  }
+
+  .cta-block {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .cta-phone,
+  .cta-note,
+  .cta-trust {
+    text-align: center;
+  }
+
+  .site-footer .footer-inner {
+    padding: 18px;
+    text-align: center;
+  }
+
+  .site-footer .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .site-footer .footer-links li {
+    margin-bottom: 8px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
