@@ -10,24 +10,42 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <style>@media (max-width: 480px) {
-  .item a {
-    font-size: 11px;
-    letter-spacing: 1px;
-    padding: 8px 10px;
+  <style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; overflow-x: hidden; }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: 'Nunito', system-ui, Arial, sans-serif;
   }
-  .container {
-    height: auto;
-    padding: 8px 0;
+
+  h1 {
+    font-family: 'Lora', Georgia, serif;
+    color: var(--color-primary);
   }
-  .navbar {
-    height: auto;
+
+  .site-footer p {
+    margin: 0;
+    padding: 0;
+    max-width: none;
   }
-  .nav-list {
-    height: auto;
+
+  @media (max-width: 480px) {
+    .item a {
+      font-size: 11px;
+      letter-spacing: 1px;
+      padding: 8px 10px;
+    }
+    .container {
+      height: auto;
+      padding: 8px 0;
+    }
+    .navbar { height: auto; }
+    .nav-list { height: auto; }
   }
-}
-</style>    
+</style>
+  
 </head>
 <body>
   <div class="banner">Compassionate Companion Care - Here When You Need Us</div>
