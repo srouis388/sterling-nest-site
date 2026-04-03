@@ -314,159 +314,19 @@
 /* ============================= */
 
 @media (max-width: 900px) {
-  .services-hero img {
-    max-width: 320px;
-    max-height: none;
-    object-fit: cover;
-    object-position: top;
-  }
+  .container { height: auto; padding: 10px 0; }
+  .navbar { height: auto; }
+  .nav-list { flex-wrap: wrap; justify-content: center; gap: 6px; height: auto; }
+  .item a { font-size: 12px; letter-spacing: 1px; padding: 8px 10px; }
+  .services-page { padding: 0 14px 32px; }
+  .services-hero img { max-width: 320px; height: auto; margin: 0 auto 14px; }
+  .services-gallery { flex-direction: column; align-items: center; }
+  .services-gallery img { max-width: 300px; }
 }
-
-
-  .services-gallery {
-    display: flex;
-    justify-content: center;
-    margin: 22px auto 6px;
-  }
-
-  .services-gallery img {
-    width: 100%;
-    max-width: 320px;
-  }
-}
-
-  .container {
-    height: auto;
-    padding: 10px 0;
-  }
-
-  .navbar {
-    height: auto;
-  }
-
-  .nav-list {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 6px;
-    height: auto;
-  }
-
-  .item a {
-    font-size: 12px;
-    letter-spacing: 1px;
-    padding: 8px 10px;
-  }
-
-  .services-page {
-    padding: 0 14px 32px;
-  }
-
-  .services-location {
-    font-size: 16px;
-    margin: 22px 0 8px;
-    padding: 0 12px;
-  }
-
-  .services-page h1 {
-    font-size: 30px;
-    line-height: 1.2;
-    margin: 10px auto 14px;
-    padding: 0 12px;
-  }
-
-  .services-intro {
-    max-width: 100%;
-    margin: 0 auto 22px;
-    padding: 0 8px;
-  }
-
-  .services-intro p {
-    font-size: 17px;
-    line-height: 1.65;
-    text-align: left;
-  }
-
-  .services-section-title {
-    font-size: 30px;
-    margin: 24px 0 16px;
-    padding: 0 12px;
-  }
-
-  .services-card {
-    margin: 0 auto 24px;
-    padding: 16px;
-    border-radius: 16px;
-  }
-
-  .services-hero img {
-    max-width: 100%;
-    margin: 0 auto 14px;
-  }
-
-  .service-block {
-    margin: 0 auto 20px;
-  }
-
-  .service-block h2 {
-    font-size: 24px;
-  }
-
-  .service-block p {
-    font-size: 16px;
-    line-height: 1.7;
-  }
-
-  .services-gallery {
-    flex-direction: column;
-    gap: 14px;
-    align-items: center;
-  }
-
-  .services-gallery img {
-    max-width: 300px; /* default portrait size */
-  }
-
-  .services-reassurance {
-    font-size: 16px;
-    line-height: 1.65;
-    padding: 0 8px;
-  }
-
-  .site-footer .footer-inner {
-    padding: 18px;
-    text-align: center;
-  }
-
-  .site-footer .footer-links {
-    margin: 10px 0;
-  }
-
-  .site-footer .footer-links li {
-    margin-bottom: 8px;
-  }
-
-  .footer-bottom {
-    align-items: center;
-  }
-}
-
-
-/* ============================= */
-/* LANDSCAPE FIXES (KEY PART) */
-/* ============================= */
 
 @media (max-width: 900px) and (orientation: landscape) {
-  .services-hero img {
-    max-height: 200px;
-    object-fit: cover;
-    object-position: center 20%;
-  }
-
-  .services-gallery img {
-    max-width: 380px;
-    max-height: 220px;
-    object-fit: cover;
-  }
+  .services-hero img { max-width: 280px; }
+  .services-gallery img { max-width: 280px; }
 }
 
     
