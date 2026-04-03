@@ -145,14 +145,28 @@
     }
 
     .services-hero img {
-      width: 100%;
-      max-width: 680px;
-      height: auto;
-      display: block;
-      margin: 0 auto 18px;
-      border-radius: 14px;
-      border: 2px solid var(--color-accent);
-    }
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  display: block;
+  margin: 0 auto 14px;
+  border-radius: 14px;
+  border: 2px solid var(--color-accent);
+}
+
+.services-gallery {
+  display: flex;
+  justify-content: center;
+  margin: 28px auto 6px;
+}
+
+.services-gallery img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  border: 2px solid var(--color-accent);
+  display: block;
+}
 
     .service-block {
       max-width: 760px;
@@ -300,12 +314,23 @@
 /* ============================= */
 
 @media (max-width: 900px) {
-
-  .banner {
-    font-size: 13px;
-    line-height: 1.4;
-    padding: 10px 12px;
+  .services-hero img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 14px;
   }
+
+  .services-gallery {
+    display: flex;
+    justify-content: center;
+    margin: 22px auto 6px;
+  }
+
+  .services-gallery img {
+    width: 100%;
+    max-width: 320px;
+  }
+}
 
   .container {
     height: auto;
@@ -428,22 +453,8 @@
 /* ============================= */
 
 @media (max-width: 900px) and (orientation: landscape) {
-
-  .services-page h1 {
-    font-size: 28px;
-  }
-
-  .services-intro p {
-    text-align: left;
-  }
-
-  .services-card {
-    padding: 14px;
-  }
-
-  /* 🔥 THIS FIXES YOUR IMAGE ISSUE */
   .services-gallery img {
-    max-width: 420px;
+    max-width: 460px;
   }
 }
     
