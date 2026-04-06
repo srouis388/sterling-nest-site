@@ -1,6 +1,6 @@
-# Sterling Nest Wellness Group LLC
+# Sterling Nest Wellness Group Website
 
-A professional website for Sterling Nest Wellness Group LLC, a home health aide and companion care service serving Lake County, Sumter County, and surrounding Central Florida communities.
+This is the official website for Sterling Nest Wellness Group, a home care service providing compassionate, personalized support for seniors and adults in Lake and Sumter County, Florida.
 
 ## 🌐 Live Site
 https://sterlingnestwellness.com
@@ -8,63 +8,75 @@ https://sterlingnestwellness.com
 ---
 
 ## 📌 Overview
-This website was designed and developed to provide a clean, trustworthy, and user-friendly experience for individuals and families seeking compassionate in-home care services.
 
-The focus of the site is to build trust, clearly communicate services, and make it easy for potential clients to get in touch.
+This website was designed to create a calm, trustworthy, and professional experience for families seeking in-home care services.
+
+It focuses on:
+- Clear communication
+- Emotional reassurance
+- Simple navigation
+- Mobile-friendly design
 
 ---
 
-## ✨ Key Features
-- Mobile-responsive design
+## 🧱 Pages
+
+- Home (`index.html`)
+- About (`about.html`)
+- Services (`services.html`)
+- Contact (`contact.html`)
+- Request Care (`request-care.html`)
+- Legal (Privacy Policy & Terms)
+
+---
+
+## ✨ Features
+
+- Responsive design (mobile, tablet, desktop)
+- Embedded Google Form for care requests
 - Clean, accessible layout
-- Trust-focused content and structure
-- Secure hosting with HTTPS (Cloudflare Pages)
-- Google Search Console integration
-- XML sitemap for improved indexing
-- Lead capture via external inquiry form
+- SEO basics (meta tags, sitemap, Google Search Console)
+- HTTPS enabled via Cloudflare
+- Facebook integration
 
 ---
 
-## 🛠️ Built With
+## 🛠 Built With
+
 - HTML5
 - CSS3
-- Google Fonts (Lora & Nunito)
-- Cloudflare Pages (hosting & deployment)
+- Google Fonts
+- Cloudflare Pages (hosting)
 - GitHub (version control)
 
 ---
 
-## 📁 Project Structure
-- `index.html` - Homepage
-- `about.html` - About the caregiver and background
-- `services.html` - Services offered
-- `contact.html` - Contact information
-- `/images` - Image assets
-- `/legal` - Privacy Policy and Terms & Conditions
-- `sitemap.xml` - Search engine indexing support
-
----
-
-## 🧠 What I Built
-- Designed and developed the full website layout from scratch
-- Implemented responsive styling for mobile and tablet devices
-- Structured content to improve clarity, trust, and usability
-- Configured custom domain, DNS, and HTTPS via Cloudflare
-- Connected and verified site with Google Search Console
-- Created and submitted XML sitemap for indexing
-- Debugged layout, image paths, and deployment issues
-
----
-
 ## 🎯 Purpose
-To create a professional online presence that reflects the values of compassion, reliability, and personalized care-while making it easy for families to understand services and reach out for support.
+
+This project was built to:
+- Establish an online presence for a local home care business
+- Build trust with potential clients
+- Provide an easy way for families to request care services
+
+---
+
+## 📍 Service Area
+
+Lake County, FL  
+Sumter County, FL  
 
 ---
 
 ## 📞 Contact
+
+Website: https://sterlingnestwellness.com  
 Phone: (321) 209-3063
 
 ---
 
-## 🚀 Status
-Live and actively maintained
+## 💡 Future Improvements
+
+- Testimonials section
+- Blog or resource content
+- Online scheduling
+- Enhanced accessibility features
