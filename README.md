@@ -6,22 +6,25 @@ A home care and companion care website centered on dignity, reassurance, and sup
 
 <img src="./images/sterling.png" width="700" alt="Sterling Nest preview">
 
-This is the official website for Sterling Nest Wellness Group, a home care service providing compassionate, personalized support for seniors and adults in Lake and Sumter County, Florida.
-
-## 🌐 Live Site
-https://sterlingnestwellness.com
-
 ---
 
 ## 📌 Overview
 
-This website was designed to create a calm, trustworthy, and professional experience for families seeking in-home care services.
+This is the official website for Sterling Nest Wellness Group, a home care service providing compassionate, personalized support for seniors and adults in Lake and Sumter County, Florida.
+
+The site is designed to create a calm, trustworthy, and professional experience for families seeking in-home care.
 
 It focuses on:
-- Clear communication
-- Emotional reassurance
-- Simple navigation
-- Mobile-friendly design
+- clear communication  
+- emotional reassurance  
+- simple navigation  
+- mobile-friendly design  
+
+---
+
+## 🌐 Live Site
+
+[https://sterlingnestwellness.com](https://sterlingnestwellness.com)
 
 ---
 
@@ -38,51 +41,51 @@ It focuses on:
 
 ## ✨ Features
 
-- Responsive design (mobile, tablet, desktop)
-- Embedded Google Form for care requests
-- Clean, accessible layout
-- SEO basics (meta tags, sitemap, Google Search Console)
-- HTTPS enabled via Cloudflare
-- Facebook integration
+- responsive design (mobile, tablet, desktop)  
+- embedded Google Form for care requests  
+- clean, accessible layout  
+- SEO basics (meta tags, sitemap, Google Search Console)  
+- HTTPS enabled via Cloudflare  
+- Facebook integration  
 
 ---
 
 ## 🛠 Built With
 
-- HTML5
-- CSS3
-- Google Fonts
-- Cloudflare Pages (hosting)
-- GitHub (version control)
+- HTML5  
+- CSS3  
+- Google Fonts  
+- Cloudflare Pages (hosting)  
+- GitHub (version control)  
 
 ---
 
 ## 🎯 Purpose
 
 This project was built to:
-- Establish an online presence for a local home care business
-- Build trust with potential clients
-- Provide an easy way for families to request care services
+- establish an online presence for a local home care business  
+- build trust with potential clients  
+- provide an easy way for families to request care  
 
 ---
 
 ## 📍 Service Area
 
-Lake County, FL  
-Sumter County, FL  
+- Lake County, FL  
+- Sumter County, FL  
 
 ---
 
 ## 📞 Contact
 
-Website: https://sterlingnestwellness.com  
-Phone: (321) 209-3063
+- Website: https://sterlingnestwellness.com  
+- Phone: (321) 209-3063  
 
 ---
 
 ## 💡 Future Improvements
 
-- Testimonials section
-- Blog or resource content
-- Online scheduling
-- Enhanced accessibility features
+- testimonials section  
+- blog or resource content  
+- online scheduling  
+- enhanced accessibility features  
