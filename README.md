@@ -1,4 +1,10 @@
-# Sterling Nest Wellness Group Website
+# 🏡 Sterling Nest Wellness Group
+
+A home care and companion care website centered on dignity, reassurance, and support for individuals and families.
+
+[Visit Sterling Nest](https://sterlingnestwellness.com)
+
+<img src="./images/sterling.png" width="700" alt="Sterling Nest preview">
 
 This is the official website for Sterling Nest Wellness Group, a home care service providing compassionate, personalized support for seniors and adults in Lake and Sumter County, Florida.
 
